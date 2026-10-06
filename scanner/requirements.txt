@@ -1,0 +1,6 @@
+aiohttp>=3.9
+APScheduler>=3.10
+python-dotenv>=1.0
+# Optional bonus modules (safe to remove if unused):
+matplotlib>=3.8          # funding history chart attachments
+prometheus-client>=0.20  # Prometheus metrics endpoint

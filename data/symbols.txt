@@ -1,0 +1,77 @@
+# Breakout Prop EMA200 Bot — Symbol List
+# USDT perpetual futures only (Binance fapi)
+# Lines starting with # are ignored
+# Symbols sourced from breakoutprop.com/symbols + original list
+# Bot auto-skips any symbol with <210 daily candles or a Binance 400 error
+
+# Majors
+BTCUSDT
+ETHUSDT
+
+# Layer 1
+SOLUSDT
+AVAXUSDT
+BNBUSDT
+SUIUSDT
+ADAUSDT
+ATOMUSDT
+NEARUSDT
+DOTUSDT
+TRXUSDT
+LTCUSDT
+BCHUSDT
+ETCUSDT
+
+# Layer 2 / Scaling
+ARBUSDT
+OPUSDT
+STXUSDT
+
+# DeFi / Infra
+LINKUSDT
+AAVEUSDT
+UNIUSDT
+LDOUSDT
+CRVUSDT
+INJUSDT
+JUPUSDT
+ONDOUSDT
+RENDERUSDT
+TAOUSDT
+VIRTUALUSDT
+
+# Meme / Altcoin
+DOGEUSDT
+XRPUSDT
+1000FLOKIUSDT
+1000BONKUSDT
+WIFUSDT
+POPCATUSDT
+PNUTUSDT
+PENGUUSDT
+TRUMPUSDT
+# PEPEUSDT    # insufficient daily history for EMA200 warmup
+# SHIBUSDT    # insufficient daily history for EMA200 warmup
+
+# Newer / niche (bot will skip if not listed on Binance Futures)
+ALGOUSDT
+APTUSDT
+FILUSDT
+HBARUSDT
+TIAUSDT
+WLDUSDT
+ORDIUSDT
+JTOUSDT
+POLUSDT
+KAITOUSDT
+HYPEUSDT
+IPUSDT
+GRASSUSDT
+AIXBTUSDT
+ASTERUSDT
+FARTCOINUSDT
+PUMPUSDT
+
+# Privacy
+ZECUSDT
+LITUSDT
